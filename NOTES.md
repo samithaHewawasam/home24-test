@@ -8,7 +8,7 @@
 - Add to Cart ( 75% completed )
 
 ## Special Notes
-- Removed cache in the server due to passing variables to the GraphQL Queries
+- Removed cache in the `server.ts` due to pass variables to the GraphQL Queries
 - QuerySearch Graphql reponse handle differenly for SearchContent - need to understand the home24 grapqal patten for better improvement
 - Added SKIP_PREFLIGHT_CHECK=true to .env file just to fix eslint dependency issue with react-scripts
 - Got 0 linting issues ( `npx eslint src/**` )
